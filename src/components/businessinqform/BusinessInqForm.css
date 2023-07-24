@@ -1,0 +1,103 @@
+.busiinqform-main {
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    animation: 0.3s ease-in 0.3s both running fadeInRight;
+}
+
+.busiinqform-con {
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, .05);
+    border-radius: 0;
+    margin-top: 0;
+    height: 100%;
+    background: #fff;
+    padding: 30px;
+    border-radius: 4px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.busiinqform-head {
+    font-size: 28px;
+    line-height: 35px;
+    color: var(--color-light-black);
+    font-weight: 500;
+}
+
+.form-head-txt {
+    line-height: 28px;
+    margin-bottom: 24px;
+    color: #6F6F6F;
+}
+
+.inqform {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.inqform-icon {
+    font-size: 25px;
+    color: var(--color-main);
+}
+
+.inqform-part {
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    width: 50%;
+    gap: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.inqform-inp {
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    color: #6f6f6f;
+}
+
+.inqform-inner-flex {
+    display: flex;
+    gap: 25px;
+}
+
+.wi-100 {
+    width: 100%;
+}
+
+.inqform-inp-full {
+    width: 100%;
+}
+
+.wi-inc {
+    width: 170px;
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.fadeInRight {
+    animation-name: fadeInRight;
+}
+
+@media screen and (max-width:575px) {
+    .inqform-inner-flex {
+        flex-direction: column;
+    }
+
+    .inqform-part {
+        width: 100%;
+    }
+}

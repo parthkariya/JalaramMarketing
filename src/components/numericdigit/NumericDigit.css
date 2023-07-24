@@ -1,0 +1,121 @@
+.numeric-main {
+    width: 100%;
+    /* height: 500px; */
+    margin-top: 80px;
+    background-image: url(../../Assest/hero-slider3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.numeric-bgimg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.numeric-inner {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.80);
+}
+
+.numeric-inner-flex {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.numeric-card {
+    padding: 50px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, .2);
+
+    overflow: hidden;
+    transition: all .8s;
+    -moz-transition: all .8s;
+    -webkit-transition: all .8s;
+    -ms-transition: all .8s;
+    -o-transition: all .8s;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 250px;
+    height: 350px;
+    animation: 1s ease-out 1s both running fadeInDown;
+}
+
+.numeric-card:hover {
+    background: var(--color-main);
+    -webkit-transform: translateY(-15px);
+}
+
+
+.numeric-card:hover .numeric-card-line {
+    background: var(--color-white);
+}
+
+.numeric-card-icon {
+    width: 80px;
+    height: 80px;
+}
+
+.numeric-card-line {
+    width: 100px;
+    height: 2px;
+    background-color: var(--color-main);
+}
+
+.numeric-card-count {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 600;
+    color: var(--color-white);
+    letter-spacing: 3px;
+    margin-bottom: 0px;
+
+}
+
+.numeric-card-txt {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--color-white);
+    text-align: center;
+}
+
+/* @keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.fadeInDown {
+    animation-name: fadeInDown;
+} */
+
+/* Media Query */
+
+@media screen and (max-width:1075px) {}
+
+.numeric-inner-flex {
+    justify-content: center;
+}
+
+@media screen and (max-width:525px) {
+    .numeric-main {
+        height: 1575px;
+    }
+}

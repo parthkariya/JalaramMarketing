@@ -1,0 +1,71 @@
+.about-heromain {
+    width: 100%;
+    height: 225px;
+    position: relative;
+    background-image: url(../../Assest/abouthero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.abouthero-img {
+    width: 100%;
+    height: 100%;
+}
+
+.abouthero-inner {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.541);
+}
+
+
+.abouthero-inner-con {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.abouthero-head {
+    font-size: 40px;
+    color: var(--color-white);
+    font-weight: 600;
+    /* text-transform: uppercase; */
+}
+
+@media screen and (max-width:1140px) {
+    .abouthero-inner-con {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .abouthero-inner-con {
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .abouthero-head {
+        margin-bottom: 0px;
+    }
+}
+
+
+@media screen and (max-width:575px) {
+    .abouthero-head {
+        font-size: 22px;
+    }
+
+
+}
+
+@media screen and (max-width:420px) {
+    .abouthero-inner-con {
+        /* gap: 60px; */
+    }
+}

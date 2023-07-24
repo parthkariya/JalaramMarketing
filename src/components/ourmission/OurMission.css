@@ -1,0 +1,52 @@
+.ourmision-txt-icon {
+    width: 20px;
+    height: 20px;
+    color: var(--color-main);
+    transition: all 0.8s;
+}
+
+.ourmision-txt-icon:hover {
+    scale: 1.2;
+}
+
+.ourmision-txt-flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.txt-size-chng {
+    font-size: 14px;
+    line-height: 24px;
+    width: 260px;
+}
+
+.p-left {
+    padding-left: 15px;
+}
+
+.ourmision-iconbox {
+    width: 35px;
+    height: 35px;
+    border: 1px solid var(--color-main);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.mr0 {
+    margin: 0px;
+}
+
+.paddigl {
+    padding-left: 15px;
+}
+
+@media screen and (max-width: 975px) {
+    .txt-size-chng {
+        width: 100%;
+    }
+}

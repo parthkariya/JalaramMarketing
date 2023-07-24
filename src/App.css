@@ -28,11 +28,139 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+
+.whats-app {
+  /* position: fixed; */
+  width: 50px;
+  height: 50px;
+  /* bottom: 40px; */
+  background-color: var(--color-main);
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  border: none;
+  margin: 5px;
+  /* box-shadow: 2px 2px 3px #999; */
+  z-index: 100;
+  /* right: 15px; */
+  /* border: dashed 1px var(--color-main); */
+}
+
+.whats-app:hover .whats-app-main {
+  animation: whats-app-main-spin infinite 20s linear;
+  cursor: pointer;
+}
+
+.whats-app-main {
+  position: fixed;
+  width: 62px;
+  height: 63px;
+  bottom: 40px;
+  color: #fff;
+  border-radius: 50px;
+  z-index: 100;
+  right: 15px;
+  border: dashed 2px var(--color-main);
+}
+
+@media (max-width: 920px) {
+  .whats-app {
+    right: 15px;
+  }
+}
+
+.my-float {
+  margin-top: 12px;
+}
+
+.float-icon {
+  font-size: 20px;
+}
+
+@keyframes whats-app-main-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+
+/* Animation Purpose */
+
+/* =-------------------- */
+/* .reveal {
+  position: relative;
+  opacity: 0;
+}
+
+.reveal.active {
+  opacity: 1;
+}
+
+.active.fade-top {
+  animation: fade-top 0.6s ease-in;
+}
+
+.active.fade-bottom {
+  animation: fade-bottom 0.6s ease-in;
+}
+
+.active.fade-left {
+  animation: fade-left 0.6s ease-in;
+}
+
+.active.fade-right {
+  animation: fade-right 0.6s ease-in;
+}
+
+@keyframes fade-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+} */

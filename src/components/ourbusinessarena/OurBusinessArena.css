@@ -1,0 +1,78 @@
+.ourbusiarena-main {
+    width: 100%;
+    height: 500px;
+    margin-top: 80px;
+}
+
+.ourbusiarena-con {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.ourbusarena-card {
+    -webkit-tap-highlight-color: transparent;
+    width: 330px !important;
+}
+
+.ourbusiarena-card-inner {
+    background: var(--color-white);
+    padding: 30px 50px 40px 50px;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.ourbusiarena-card-icon {
+    width: 40px;
+    height: 40px;
+    color: var(--color-main);
+}
+
+.ourbusiarena-card-txt {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-black);
+    line-height: 32px;
+}
+
+.ourbusiarena-card-digitbox {
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+    transition: all 0.88s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    padding-top: 8px;
+}
+
+.ourbusiarena-card-digitbox:hover {
+    background-color: var(--color-main);
+}
+
+.ourbusiarena-card-digit {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-black);
+    line-height: 32px;
+}
+
+.ourbusiarena-card-digit:hover {
+    color: var(--color-white);
+}
+
+@media screen and (max-width: 650px) {
+    .ourbusarena-card {
+        width: 210px !important;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .ourbusarena-card {
+        width: 330px !important;
+    }
+}

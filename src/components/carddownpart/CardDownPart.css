@@ -1,0 +1,127 @@
+.carddownpart-main {
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+    display: flex;
+}
+
+.carddown-part {
+    width: 50%;
+}
+
+.carddown-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carddown-part2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: var(--color-main);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: auto;
+}
+
+.carddown-part-box-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.carddown-part-head {
+    font-size: 32px;
+    line-height: 45px;
+    font-weight: 500;
+    color: var(--color-white);
+}
+
+.carddown-part-txt {
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-white);
+}
+
+.carddown-part-box-sub-flex {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.carddown-part-box {
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    padding: 30px 30px;
+    background: rgba(0, 0, 0, .2);
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    color: var(--color-white);
+}
+
+.caeddown-part-box-head {
+    /* color: var(--color-white); */
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.caeddown-part-box-txt {
+    opacity: .8;
+    font-size: 15px;
+    line-height: 26px;
+    /* color: var(--color-white); */
+}
+
+.carddown-part-box-icon {
+    width: 80px;
+    height: 80px;
+    /* color: var(--color-white);
+    stroke: var(--color-white); */
+    /* fill: var(--color-white); */
+}
+
+.carddown-part-box:hover {
+    background-color: var(--color-white);
+    color: var(--color-black);
+}
+
+
+@media screen and (max-width: 1050px) {
+    .carddownpart-main {
+        flex-direction: column;
+    }
+
+    .carddown-part {
+        width: 100%;
+    }
+
+    .carddown-part2 {
+        width: 100%;
+    }
+
+    .carddown-img {
+        transform: translate(0px, 10px);
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .carddown-part-box-sub-flex {
+        align-items: flex-start;
+    }
+
+    .carddown-part-box-icon {
+        width: 120px;
+        height: 120px;
+    }
+}

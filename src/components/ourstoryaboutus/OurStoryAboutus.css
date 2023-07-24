@@ -1,0 +1,122 @@
+.about-ourstory-main {
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+}
+
+.about-ourstory-con {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 25px;
+}
+
+.about-ourstory-part-head {
+    color: var(--color-main);
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+.about-ourstory-part {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.about-ourstory-part2 {
+
+    width: 50%;
+}
+
+.about-ourstory-part-subhead {
+    color: var(--color-light-black);
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.about-ourstory-subhead-digit {
+    font-style: italic;
+    color: var(--color-main);
+}
+
+.about-ourstory-txt {
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 500;
+    color: var(--color-gray);
+}
+
+.about-ourstory-subtxt {
+    color: var(--color-black);
+    line-height: 32px;
+    font-size: 16px;
+}
+
+.aboutourstory-img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:1140px) {
+    .about-ourstory-con {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .about-ourstory-part-subhead {
+        font-size: 46px;
+    }
+
+    .about-ourstory-txt {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width:975px) {
+
+    .about-ourstory-con {
+        flex-direction: column;
+        gap: 45px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-ourstory-part {
+        width: 75%;
+    }
+
+    .about-ourstory-part2 {
+        width: 75%;
+    }
+
+    .about-ourstory-part-subhead {
+        font-size: 38px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width:550px) {
+
+
+
+    .about-ourstory-part-subhead {
+        font-size: 23px;
+        line-height: 35px;
+    }
+
+    .about-ourstory-txt {
+        font-size: 22px;
+        line-height: 35px;
+    }
+
+    .about-ourstory-part {
+        width: 100%;
+    }
+
+    .about-ourstory-part2 {
+        width: 100%;
+    }
+}

@@ -1,0 +1,106 @@
+.ourstrength-downpart-main {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../Assest/ourstrengthdownpart-bg.jpg"),
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(34, 34, 34, 0.6));
+    background-size: cover;
+
+    position: relative;
+    /* ../../Assest/ourstrengthdownpart-bg.jpg */
+}
+
+.ourstrengthdownpart-main-bgclr {
+
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, var(--color-main) 8% 100%);
+    opacity: 0.8;
+    padding: 50px;
+}
+
+.ourstrengthdownpart-con {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0.25rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.ourstrengthdownpart-txt {
+    line-height: 28px;
+    font-size: 16px;
+    color: var(--color-light-black);
+    text-align: justify;
+}
+
+@media screen and (max-width: 1140px) {
+    .ourstrengthdownpart-con {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .ourstrengthdownpart-main {
+        height: 108vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .ourstrengthdownpart-con {
+        margin: 0px;
+    }
+
+    .ourstrengthdownpart-main-bgclr {
+        padding: 25px;
+    }
+}
+
+
+/* @media screen and (max-width: 915px) {
+
+    .ourstrengthdownpart-main {
+        height: 135vh;
+    }
+}
+
+@media screen and (max-width: 760px) {
+
+    .ourstrengthdownpart-main {
+        height: 150vh;
+    }
+}
+
+@media screen and (max-width: 675px) {
+
+    .ourstrengthdownpart-main {
+        height: 165vh;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    .ourstrengthdownpart-main {
+        height: 200vh;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    .ourstrengthdownpart-main {
+        height: 250vh;
+    }
+} */
+
+
+
+
+
+/*  background: linear-gradient(45deg, var(--color-main) 8%, var(--color-hover) 100%); */

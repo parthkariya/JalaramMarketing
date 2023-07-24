@@ -1,0 +1,36 @@
+.about-heromain {
+    width: 100%;
+    height: 225px;
+    position: relative;
+}
+
+.abouthero-img {
+    width: 100%;
+    height: 100%;
+}
+
+.abouthero-inner {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-black);
+    opacity: 0.5;
+}
+
+.abouthero-inner-con {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.abouthero-head {
+    font-size: 40px;
+    color: var(--color-white);
+    font-weight: 600;
+    text-transform: uppercase;
+}
